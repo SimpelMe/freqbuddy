@@ -131,15 +131,15 @@
       <h3>Frequenz­abstände</h3>
       <p>Diese sind innerhalb eines TV-Kanals spiegelbar. Standard­mäßig wird der Abstand zu jeder höheren Frequenz größer (an­steigend - ↑). Dies kann umgedreht werden (ab­steigend - ↓). Dies ist z. B. für ein zwei­tes, gleich­zeitig zu nutzendes Set an Fre­quenzen zu empfehlen. Das zweite Set sollte so weit wie möglich vom ersten entfernt sein und statt der an- die ab­steigenden Frequenz­abstände nutzen.</p>
       <h3>Antennenabstand</h3>
-      <p>Sollen Sender und Empfänger dicht neben­einander betrieben werden:</p>
+      <p>Sollen Sender und Em­pfänger dicht neben­einander betrieben werden:</p>
       <ul>
-        <li>Der physische Abstand zwischen den Antennen des Senders und Em­pfängers ist so groß wie möglich zu wählen.</li>
+        <li>Der physische Abstand zwischen den Anten­nen des Senders und Em­pfängers ist so groß wie möglich zu wählen.</li>
         <li>Sender und Empfänger haben mindestens 8 MHz (ein TV-Kanal) Abstand, um Sender-Empfänger-Blocking zu mini­mieren.</li>
       </ul>
       <h3>Hintergründe Frequenzen</h3>
       <ul>
-        <li>Es stehen höchstens 8 Frequenzen in einem TV-Kanal zur Verfügung.</li>
-        <li>TV-Kanäle nahe LTE haben auf Grund der Schutzlücke weniger Frequenzen zur Verfügung.</li>
+        <li>Es stehen höchstens 8 Frequenzen in einem TV-Kanal zur Ver­fügung.</li>
+        <li>TV-Kanäle nahe LTE haben auf Grund der Schutzlücke weniger Frequenzen zur Ver­fügung.</li>
         <li>Mit ab­steigenden Frequenz­abständen (↓) sinkt die Anzahl der nutzbaren Frequenzen für diese TV-Kanäle nochmals.</li>
         <li id="footnote1"><sup>1</sup> Handgeräte im Frequenz­bereich <strong>823 - 826 MHz</strong> dürfen nur mit max. 82 mW Sende­leistung betrieben werden.</li>
       </ul>
@@ -150,7 +150,7 @@
         <li>min. 100 kHz Abstand 3TX-IM(3) - Intermodulation 3. Ordnung von 3 Sendern</li>
         <li>Inter­modulations­festigkeit: <strong>F1</strong>: 54 %, <strong>F2</strong>: 65 %, <strong>F3</strong>: 49 %, <strong>F4</strong>: 67 %, <strong>F5</strong>: 81 %, <strong>F6</strong>: 63 %, <strong>F7</strong>: 82 %, <strong>F8</strong>: 66 % (Je höher die Prozent­zahl, desto besser ist das Signal.)</li>
       </ul>
-      <p>Die Mindest­anforderungen zur Inter­modulations­festigkeit sind in jedem Fall erfüllt. Diese Werte gelten für die an­steigenden Frequenz­abstände. Für die ab­steigenden Frequenz­abstände ist die Reihen­folge umzudrehen.</p>
+      <p>Die Mindest­anforderungen zur Inter­modulations­fest­ig­keit sind in jedem Fall erfüllt. Diese Werte gelten für die an­steigenden Frequenz­abstände. Für die ab­steigenden Frequenz­abstände ist die Reihen­folge umzudrehen.</p>
       <div class="space"></div>
     </main>
   </body>
