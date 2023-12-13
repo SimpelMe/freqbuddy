@@ -125,29 +125,29 @@
       <ul>
         <li>Klick auf eine einzelne Frequenz zeigt diese im Vollbild.</li>
         <li>Klick auf das Kopier­symbol (⧉) rechts neben der Tabellen­überschrift kopiert die komplette Tabelle in den Zwischen­speicher.</li>
-        <li><em>Cookie</em>: Der zuletzt aus­gewählte TV-Kanal (und die an- oder ab­steigend aus­gewähl­ten Frequenz­abstände) werden für 7 Tage in einem Cookie gespeichert.</li>
+        <li><em>Cookie</em>: Der zuletzt aus­gewählte TV-Kanal (und die an- oder ab­steigend aus­gewähl­ten Frequenz­abstände) werden für 7 Tage in einem Cookie ge­speichert.</li>
       </ul>
       <h2>Hintergründe / Details</h2>
       <h3>Frequenz­abstände</h3>
-      <p>Diese sind innerhalb eines TV-Kanals spiegelbar. Standard­mäßig wird der Abstand zu jeder höheren Frequenz größer (an­steigend - ↑). Dies kann umgedreht werden (ab­steigend - ↓). Dies ist z. B. für ein zwei­tes, gleich­zeitig zu nutzendes Set an Fre­quenzen zu empfehlen. Das zweite Set sollte so weit wie möglich vom ersten entfernt sein und statt der an- die ab­steigenden Frequenz­abstände nutzen.</p>
+      <p>Diese sind innerhalb eines TV-Kanals spiegelbar. Standard­mäßig wird der Abstand zu jeder höheren Frequenz größer (an­steigend - ↑). Dies kann umgedreht werden (ab­steigend - ↓). Dies ist z. B. für ein zwei­tes, gleich­zeitig zu nutzendes Set an Fre­quenzen zu empfehlen. Das zweite Set sollte so weit wie möglich vom ersten entfernt sein und statt der an- die ab­steigenden Frequenz­abstände nutzen.</p>
       <h3>Antennenabstand</h3>
-      <p>Sollen Sender und Em­pfänger dicht neben­einander betrieben werden:</p>
+      <p>Sollen Sender und Em­pfän­ger dicht neben­einander betrieben werden:</p>
       <ul>
-        <li>Der physische Abstand zwischen den Anten­nen des Senders und Em­pfängers ist so groß wie möglich zu wählen.</li>
-        <li>Sender und Empfänger haben mindestens 8 MHz (ein TV-Kanal) Abstand, um Sender-Empfänger-Blocking zu mini­mieren.</li>
+        <li>Der physische Abstand zwischen den Anten­nen des Senders und Em­pfäng­ers ist so groß wie möglich zu wählen.</li>
+        <li>Sender und Emp­fän­ger haben mindestens 8 MHz (ein TV-Kanal) Abstand, um Sender-Empfänger-Blocking zu mini­mieren.</li>
       </ul>
       <h3>Hintergründe Frequenzen</h3>
       <ul>
-        <li>Es stehen höchstens 8 Frequenzen in einem TV-Kanal zur Ver­fügung.</li>
-        <li>TV-Kanäle nahe LTE haben auf Grund der Schutzlücke weniger Frequenzen zur Ver­fügung.</li>
+        <li>Es stehen höchstens 8 Frequenzen in einem TV-Kanal zur Ver­fü­gung.</li>
+        <li>TV-Kanäle nahe LTE haben auf Grund der Schutzlücke weniger Frequenzen zur Ver­fü­gung.</li>
         <li>Mit ab­steigenden Frequenz­abständen (↓) sinkt die Anzahl der nutzbaren Frequenzen für diese TV-Kanäle nochmals.</li>
         <li id="footnote1"><sup>1</sup> Handgeräte im Frequenz­bereich <strong>823 - 826 MHz</strong> dürfen nur mit max. 82 mW Sende­leistung betrieben werden.</li>
       </ul>
       <h3>Berechnung der Inter­modulations­­freiheit</h3>
       <ul>
         <li>min. 400 kHz Trägerabstand</li>
-        <li>min. 200 kHz Abstand 2TX-IM(3) - Intermodulation 3. Ordnung von 2 Sendern</li>
-        <li>min. 100 kHz Abstand 3TX-IM(3) - Intermodulation 3. Ordnung von 3 Sendern</li>
+        <li>min. 200 kHz Abstand 2TX-IM(3) - Inter­mo­du­la­tion 3. Ordnung von 2 Sendern</li>
+        <li>min. 100 kHz Abstand 3TX-IM(3) - Inter­mo­du­la­tion 3. Ordnung von 3 Sendern</li>
         <li>Inter­modulations­festigkeit: <strong>F1</strong>: 54 %, <strong>F2</strong>: 65 %, <strong>F3</strong>: 49 %, <strong>F4</strong>: 67 %, <strong>F5</strong>: 81 %, <strong>F6</strong>: 63 %, <strong>F7</strong>: 82 %, <strong>F8</strong>: 66 % (Je höher die Prozent­zahl, desto besser ist das Signal.)</li>
       </ul>
       <p>Die Mindest­anforderungen zur Inter­modulations­fest­ig­keit sind in jedem Fall erfüllt. Diese Werte gelten für die an­steigenden Frequenz­abstände. Für die ab­steigenden Frequenz­abstände ist die Reihen­folge umzudrehen.</p>
