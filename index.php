@@ -125,7 +125,7 @@
       <ul>
         <li>Klick auf eine einzelne Frequenz zeigt diese im Vollbild.</li>
         <li>Klick auf das Kopier­symbol (⧉) rechts neben der Tabellen­überschrift kopiert die komplette Tabelle in den Zwischen­speicher.</li>
-        <li><em>Cookie</em>: Der zuletzt aus­gewählte TV-Kanal (und die an- oder absteigend ausgewählten Frequenz­abstände) werden für 7 Tage in einem Cookie gespeichert.</li>
+        <li><em>Cookie</em>: Der zuletzt aus­gewählte TV-Kanal (und die an- oder ab­steigend aus­gewähl­ten Frequenz­abstände) werden für 7 Tage in einem Cookie gespeichert.</li>
       </ul>
       <h2>Hintergründe / Details</h2>
       <h3>Frequenz­abstände</h3>
