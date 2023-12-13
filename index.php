@@ -113,7 +113,7 @@
         </tbody>
       </table>
       <div class="space"></div>
-      <p>Freie TV-Kanäle mit Ortssuche finden: <a href="https://fmscan.org/locsearch.php?reset=1&r=t&m=s" target="_blank" rel="noopener noreferrer" lang="en">fmscan.org</a></p>
+      <p>Freie TV-Kanäle mit Orts­suche finden: <a href="https://fmscan.org/locsearch.php?reset=1&r=t&m=s" target="_blank" rel="noopener noreferrer" lang="en">fmscan.org</a></p>
       <div class="space"></div>
       <h2>Hilfe</h2>
       <p>Dieses Tool berechnet die besten, unter­einander störungs­freien Funk­frequenzen inner­halb eines TV-Kanals (8 MHz-Raster).</p>
