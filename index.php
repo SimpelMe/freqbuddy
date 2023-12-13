@@ -26,7 +26,7 @@
         </div>
       </dialog>
       <!-- TV-Kanal zu Mitten-Frequenz: Kanalnummer * 8 MHz + 306 MHz (- 4 MHz, um an den Anfang des Kanals zu gelangen)-->
-      <div class="horizontal">
+      <div>
         <label for="channel">Freier TV-Kanal</label>
         <select name="channel" id="channel" required onchange="calculateFreqs()">
           <option value="" disabled selected hidden>auswählen …</option>
@@ -69,12 +69,12 @@
         </select>
       </div>
       <div class="horizontal">
-        <p class="label">Frequenzabstände</p>
+        <p class="label">Abstände</p>
         <form onchange="calculateFreqs()">
           <input type="radio" name="direction" id="up" value="up">
-          <label for="up">an-</label>
+          <label for="up" aria-label="ansteigend">↑</label>
           <input type="radio" name="direction" id="down" value="down">
-          <label for="down">absteigend</label>
+          <label for="down" aria-label="absteigend">↓</label>
         </form>
       </div>
       <div class="space"></div>
@@ -113,66 +113,44 @@
         </tbody>
       </table>
       <div class="space"></div>
-      <p>Belegte Fernsehkanäle lassen sich per Ortssuche bei <a href="https://fmscan.org/locsearch.php?reset=1&r=t&m=s" target="_blank" rel="noopener noreferrer">fmscan.org</a> finden.</p>
+      <p>Freie TV-Kanäle mit Ortssuche finden: <a href="https://fmscan.org/locsearch.php?reset=1&r=t&m=s" target="_blank" rel="noopener noreferrer" lang="en">fmscan.org</a></p>
       <div class="space"></div>
-      <details>
-        <summary>Hilfe</summary>
-        <p>Dieses Tool zeigt Dir die besten untereinander störungsfreien Funkfrequenzen innerhalb eines TV-Kanals (8-MHz-Raster).</p>
-        <p>Dabei gelten folgende Regeln:
-          <ul>
-            <li>Dieses Tool betrachtet immer nur einen TV-Kanal.</li>
-            <li>Zusätzliche Frequenzen dieses Tools aus anderen TV-Kanälen sind <b>nicht</b> auf Kompatibilität geprüft.</li>
-            <ul>
-              <li>Nahe liegende TV-Kanäle werden <b>nicht</b> störungsfrei funktionieren.</li>
-              <li>Weit entfernte TV-Kanäle können störungsfrei funktionieren.</li>
-            </ul>
-            <li>Die Frequenzabstände innerhalb eines TV-Kanals sind spiegelbar. Standardmäßig wird der Abstand zu jeder höheren Frequenz größer (ansteigend). Dies kann mit der Wahl 'absteigend' umgedreht werden.</li>
-            <ul>
-              <li>Dies ist z.B. für ein zweites, gleichzeitig zu nutzendes Set an Frequenzen zu empfehlen. Das zweite Set sollte so weit wie möglich vom ersten entfernt sein und statt der an- die absteigenden Frequenzabstände nutzen.</li>
-            </ul>
-            <li>Sollen Sender und Empfänger in einer Kameratasche nebeneinander betrieben werden, muss</li>
-            <ul>
-              <li>der physische Abstand zwischen den Antennen des Senders und des Empfängers so groß wie möglich gewählt werden.</li>
-              <li>Sender und Empfänger mindestens 8 MHz, besser 16 oder 24 MHz Abstand voneinander haben, um das Sender-Empfänger-Blocking möglichst gering zu halten.</li>
-            </ul>
-            <li>Es stehen höchstens 8 Frequenzen in einem TV-Kanal zur Verfügung.</li>
-            <li>TV-Kanäle nahe LTE haben auf Grund der Schutzlücke weniger Frequenzen zur Verfügung.</li>
-            <ul>
-              <li>Mit absteigenden Frequenzabständen sinkt die Anzahl der nutzbaren Frequenzen für diese TV-Kanäle nochmals.</li>
-            </ul>
-            <li>Die Intermodulationsfreiheit ist berechnet mit:</li>
-            <ul>
-              <li>min. 400 kHz Trägerabstand</li>
-              <li>min. 200 kHz Abstand 2TX-IM(3) - Intermodulation 3. Ordnung von 2 Sendern</li>
-              <li>min. 100 kHz Abstand 3TX-IM(3) - Intermodulation 3. Ordnung von 3 Sendern</li>
-            </ul>
-            <li>Die Intermodulationsfestigkeit ist berechnet mit:</li>
-            <ul>
-              <li>F1: 54 %</li>
-              <li>F2: 65 %</li>
-              <li>F3: 49 %</li>
-              <li>F4: 67 %</li>
-              <li>F5: 81 %</li>
-              <li>F6: 63 %</li>
-              <li>F7: 82 %</li>
-              <li>F8: 66 %</li>
-              <li>Je höher die Prozentzahl, desto besser ist das Signal.</li>
-              <li>Die Mindestanforderungen zur Intermodulationsfestigkeit sind in jedem Fall erfüllt.</li>
-              <li>Diese Werte gelten für die ansteigenden Frequenzabstände. Für die absteigenden Frequenzabstände ist die Reihenfolge umzudrehen.</li>
-            </ul>
-            <li id="footnote1"><sup>1</sup> Handgeräte mit Frequenzen zwischen 823 - 826 MHz dürfen nur mit reduzierter Sendeleistung von maximal 82 mW betrieben werden.</li>
-          </ul>
-        </p>
-        <p>Folgende weitere Funktionen sind im Tool enthalten:
-          <ul>
-            <li>Mit dem oben genannten Link zu fmscan.org kann man die bereits mit DVB-T belegten TV-Kanäle manuell ausschließen.</li>
-            <li>Mit Klick auf eine einzelne Frequenz, wird diese im Vollbild angezeigt.</li>
-            <li>Mit Klick auf das Kopiersymbol (&#10697;) rechts neben der Tabellenüberschrift 'Frequenzen' wird die komplette Tabelle in den Zwischenspeicher kopiert.</li>
-            <li>Der zuletzt ausgewählte TV-Kanal wird für 7 Tage in einem Cookie gespeichert und beim nächsten Laden der Webseite wieder ausgewählt.</li>
-            <li>Ebenso werden die an- oder absteigend ausgewählten Frequenzabstände in einem Cookie gespeichert.</li>
-          </ul>
-        </p>
-      </details>
+      <h2>Hilfe</h2>
+      <p>Dieses Tool berechnet die besten, unter­einander störungs­freien Funk­frequenzen inner­halb eines TV-Kanals (8 MHz-Raster).</p>
+      <h3>Hinweis</h3>
+      <p>Es wird nur ein TV-Kanal isoliert betrachtet. Zusätzliche Fre­quenzen aus anderen TV-Kanälen werden <b>nicht</b> auf Kompa­ti­bilität geprüft.</p>
+      <h3>Tipp</h3>
+      <p>Suche als erstes mit <em lang="en">fmscan.org</em>, welche TV-Kanäle (Spalte &quot;Ch&quot;) nicht oder schwach mit DVB-T belegt sind. Komplett freie Kanäle er­scheinen nicht in der Liste und sind voraus­sichtlich eine gute Wahl. Nutze idealer Weise keine zwei direkt benach­barten TV-Kanäle.</p>
+      <h3>Weitere Funktionen</h3>
+      <ul>
+        <li>Klick auf eine einzelne Frequenz zeigt diese im Vollbild.</li>
+        <li>Klick auf das Kopier­symbol (⧉) rechts neben der Tabellen­überschrift kopiert die komplette Tabelle in den Zwischen­speicher.</li>
+        <li><em>Cookie</em>: Der zuletzt aus­gewählte TV-Kanal (und die an- oder absteigend ausgewählten Frequenz­abstände) werden für 7 Tage in einem Cookie gespeichert.</li>
+      </ul>
+      <h2>Hintergründe / Details</h2>
+      <h3>Frequenz­abstände</h3>
+      <p>Diese sind innerhalb eines TV-Kanals spiegelbar. Standard­mäßig wird der Abstand zu jeder höheren Frequenz größer (an­steigend - ↑). Dies kann umgedreht werden (ab­steigend - ↓). Dies ist z. B. für ein zwei­tes, gleich­zeitig zu nutzendes Set an Fre­quenzen zu empfehlen. Das zweite Set sollte so weit wie möglich vom ersten entfernt sein und statt der an- die ab­steigenden Frequenz­abstände nutzen.</p>
+      <h3>Antennenabstand</h3>
+      <p>Sollen Sender und Empfänger dicht neben­einander betrieben werden:</p>
+      <ul>
+        <li>Der physische Abstand zwischen den Antennen des Senders und Em­pfängers ist so groß wie möglich zu wählen.</li>
+        <li>Sender und Empfänger haben mindestens 8 MHz (ein TV-Kanal) Abstand, um Sender-Empfänger-Blocking zu mini­mieren.</li>
+      </ul>
+      <h3>Hintergründe Frequenzen</h3>
+      <ul>
+        <li>Es stehen höchstens 8 Frequenzen in einem TV-Kanal zur Verfügung.</li>
+        <li>TV-Kanäle nahe LTE haben auf Grund der Schutzlücke weniger Frequenzen zur Verfügung.</li>
+        <li>Mit ab­steigenden Frequenz­abständen (↓) sinkt die Anzahl der nutzbaren Frequenzen für diese TV-Kanäle nochmals.</li>
+        <li id="footnote1"><sup>1</sup> Handgeräte im Frequenz­bereich <strong>823 - 826 MHz</strong> dürfen nur mit max. 82 mW Sende­leistung betrieben werden.</li>
+      </ul>
+      <h3>Berechnung der Inter­modulations­­freiheit</h3>
+      <ul>
+        <li>min. 400 kHz Trägerabstand</li>
+        <li>min. 200 kHz Abstand 2TX-IM(3) - Intermodulation 3. Ordnung von 2 Sendern</li>
+        <li>min. 100 kHz Abstand 3TX-IM(3) - Intermodulation 3. Ordnung von 3 Sendern</li>
+        <li>Inter­modulations­festigkeit: <strong>F1</strong>: 54 %, <strong>F2</strong>: 65 %, <strong>F3</strong>: 49 %, <strong>F4</strong>: 67 %, <strong>F5</strong>: 81 %, <strong>F6</strong>: 63 %, <strong>F7</strong>: 82 %, <strong>F8</strong>: 66 % (Je höher die Prozent­zahl, desto besser ist das Signal.)</li>
+      </ul>
+      <p>Die Mindest­anforderungen zur Inter­modulations­festigkeit sind in jedem Fall erfüllt. Diese Werte gelten für die an­steigenden Frequenz­abstände. Für die ab­steigenden Frequenz­abstände ist die Reihen­folge umzudrehen.</p>
       <div class="space"></div>
     </main>
   </body>
