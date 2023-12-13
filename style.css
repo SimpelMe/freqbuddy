@@ -50,7 +50,7 @@ a:not([href]) {
 }
 
 header {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.0em;
 }
 
 nav {
@@ -185,7 +185,11 @@ input[type=radio] {
   accent-color: #333;
 }
 
-th, tr:nth-child(even) {
+th {
+  background-color: #444444;
+}
+
+tr:nth-child(even) {
   background-color: #505050;
 }
 
@@ -250,6 +254,10 @@ main .first-in-main {
   padding-top: calc(var(--default-top-padding) - 0.8em);
 }
 
+.horizontal {
+  margin-top: 10px;
+}
+
 .horizontal label {
   margin-right: 10px;
 }
@@ -262,6 +270,10 @@ th, td {
   padding: 0;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+#copyIcon {
+  margin-left: 10px;
 }
 
 .space {
@@ -355,8 +367,5 @@ p#source {
 ***************************************************************************** */
 
 /* iPhone 13 mini portrait (max-width: 375px) */
-@media (max-width: 600px) {
-  .horizontal {
-    display: inline-block;
-  }
-}
+/* @media (max-width: 600px) {
+} */
