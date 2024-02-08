@@ -2,8 +2,8 @@
 <html lang="de" dir="ltr">
   <head>
     <?php include dirname($_SERVER['DOCUMENT_ROOT']) . "/simpel.cc/php/head.php"; ?>
+    <!-- <meta charset="utf-8"> -->
     <!-- <title>FreqBuddy</title> -->
-    <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
   </head>
