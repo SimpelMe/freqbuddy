@@ -4,8 +4,8 @@
     <?php include dirname($_SERVER['DOCUMENT_ROOT']) . "/simpel.cc/php/head.php"; ?>
     <!-- <meta charset="utf-8"> -->
     <!-- <title>FreqBuddy</title> -->
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" defer>
   </head>
   <body>
     <header>
@@ -154,8 +154,4 @@
       <div class="space"></div>
     </main>
   </body>
-  <script>
-    enableCellPopup();
-    calculateFreqs();
-  </script>
 </html>

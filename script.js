@@ -218,3 +218,8 @@ function getCookie(cname) {
   }
   return "";
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+  enableCellPopup();
+  calculateFreqs();
+});
