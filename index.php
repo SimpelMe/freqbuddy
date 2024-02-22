@@ -11,7 +11,7 @@
     <header>
       <?php include dirname($_SERVER['DOCUMENT_ROOT']) . "/simpel.cc/php/header.php"; ?>
       <!-- <nav>
-        <a id="logo" class="cursordefault" href="/"><img src="../Simpel.png" alt="simpel icon" height="48" width="48"></a>
+        <a id="logo" class="cursordefault" href="/"><img src="../Simpel_48px.png" alt="simpel icon" height="48" width="48"></a>
         <h1>FreqBuddy</h1>
         <a id="github" href="https://github.com/SimpelMe/freqbuddy" target="_blank" rel="noopener noreferrer" title="watch source code">
           <img id="github-cat" src="../github.svg" alt="github logo">
