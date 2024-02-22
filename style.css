@@ -119,6 +119,9 @@ a:not([class]) {
 img, picture {
   max-width: 100%;
   display: block;
+  /* alt text should be very different */
+  font-style: italic;
+  font-size: small;
 }
 
 /* Inherit fonts for inputs and buttons */
