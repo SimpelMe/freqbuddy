@@ -55,7 +55,7 @@ header {
 
 nav {
   display: flex;
-  align-items: center;
+  align-items: end;
   column-gap: 0.7em;
 }
 
@@ -318,6 +318,11 @@ main {
   display: flex;
   flex-direction: column;
   height: 100%
+}
+
+#logo img {
+  width: 2em;
+  height: auto;
 }
 
 #dialog-wrapper {
