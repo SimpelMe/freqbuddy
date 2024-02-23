@@ -55,8 +55,13 @@ header {
 
 nav {
   display: flex;
-  align-items: end;
+  align-items: baseline;
   column-gap: 0.7em;
+}
+
+nav a {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 h1 {
