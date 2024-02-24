@@ -233,6 +233,11 @@ body {
   hyphens: auto;
 }
 
+/* prevents scrolling in the background if dialog popup is opened */
+body:has(dialog[open]) {
+  overflow: hidden;
+}
+
 button, input, select,
 details summary {
   cursor: pointer;
