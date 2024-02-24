@@ -4,8 +4,8 @@
     <?php include dirname($_SERVER['DOCUMENT_ROOT']) . "/simpel.cc/php/head.php"; ?>
     <!-- <meta charset="utf-8"> -->
     <!-- <title>FreqBuddy</title> -->
-    <script src="script.js" defer></script>
-    <link rel="stylesheet" href="style.css" defer>
+    <script src="script.min.js" defer></script>
+    <link rel="stylesheet" href="style.min.css" defer>
   </head>
   <body>
     <header>
