@@ -5,7 +5,7 @@
     <!-- <meta charset="utf-8"> -->
     <!-- <title>FreqBuddy</title> -->
     <script src="script.min.js" defer></script>
-    <link rel="stylesheet" href="style.min.css" defer>
+    <link rel="stylesheet" href="style.min.css">
   </head>
   <body>
     <header>
