@@ -334,11 +334,6 @@ main {
   height: 100%
 }
 
-#logo img {
-  width: 2em;
-  height: auto;
-}
-
 #dialog-wrapper {
   position: fixed;
   top: 0;
