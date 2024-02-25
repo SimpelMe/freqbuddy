@@ -53,15 +53,19 @@ header {
   margin-bottom: 1.0em;
 }
 
-nav {
-  display: flex;
-  align-items: baseline;
-  column-gap: 0.7em;
+header a {
+  display: inline-flex;
 }
 
-nav a {
-  margin-top: auto;
-  margin-bottom: auto;
+header img {
+  width: 1.9em;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  column-gap: 0.7em;
 }
 
 h1 {
@@ -71,10 +75,6 @@ h1 {
 
 #github {
   margin-left: auto;
-}
-
-#github-cat {
-  height: 1.5em;
 }
 
 /* *****************************************************************************
