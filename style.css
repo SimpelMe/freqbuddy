@@ -77,6 +77,10 @@ h1 {
   margin-left: auto;
 }
 
+#github-cat {
+  transform: scale(0.5) translate(50%, -50%);
+}
+
 /* *****************************************************************************
 
   reset user agent styles
