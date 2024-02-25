@@ -129,7 +129,6 @@
           </tr>
         </tbody>
       </table>
-      <div class="space"></div>
       <details>
         <summary>
           <h2>Hilfe</h2>
