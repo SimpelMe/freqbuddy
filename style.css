@@ -162,6 +162,14 @@ body {
   line-height: 0.8em;
 }
 
+details[open] h2 {
+  font-size: 1.5em;
+}
+
+summary h2 {
+  font-size: inherit;
+}
+
 /* *****************************************************************************
 
   colors
@@ -377,6 +385,9 @@ select#channel {
 
 summary h2 {
   display: inline-block;
+}
+
+details[open] h2 {
   vertical-align: sub;
 }
 
