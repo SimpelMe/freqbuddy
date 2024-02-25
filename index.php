@@ -173,7 +173,6 @@
         </ul>
         <p>Die Mindestanforderungen zur Intermodulationsfestigkeit sind in jedem Fall erfüllt. Diese Werte gelten für die ansteigenden Frequenzabstände. Für die absteigenden Frequenzabstände ist die Reihenfolge umzudrehen.</p>
       </details>
-      <div class="space"></div>
     </main>
   </body>
   <script src="app.min.js"></script>
