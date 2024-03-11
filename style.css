@@ -11,7 +11,7 @@
 
   adjust header styling
 
-  ***************************************************************************** */
+***************************************************************************** */
 
 header {
   margin-bottom: 1em;
@@ -98,6 +98,10 @@ input, button, textarea, select {
 /* Just for this special page */
 body {
   font-size: 2em;
+}
+
+main {
+  font-size: inherit;
 }
 
 #dialogText {
